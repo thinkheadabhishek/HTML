@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms & Inputs</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="name">Name : </label>
+            <input type="text" id="name" name="name" value="Jhon Doe">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email :</label>
+            <input type="email" name="email" id="email" placeholder="exampl@thinkitive.com">
+        </div>
+        <br>
+        <div>
+            <label for="message">Message :</label><br>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender :</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female" selected>Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="age">Age :</label>
+            <input type="number" name="age" id="age">
+        </div><br>
+        <div>
+            <label for="birthdate">Birthdate :</label>
+            <input type="date" name="birthdate" id="birthdate">
+        </div><br>
+        <div>
+            <label for="member">Membership :</label>
+            <input type="radio" name="member" id="member" value="yes" checked>Yes
+            <input type="radio" name="member" id="member" value="no">No
+        </div><br>
+        <div>
+            <label for="skills">Select skills :</label><br>
+            <input type="checkbox" name="skills" id="skills" value="java"> Java
+            <input type="checkbox" name="skills" id="skills" value="python" checked> Python
+            <input type="checkbox" name="skills" id="skills" value="html"> Html
+            <input type="checkbox" name="skills" id="skills" value="css"> CSS
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
